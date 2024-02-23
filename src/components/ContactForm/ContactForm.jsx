@@ -27,7 +27,7 @@ export default function ContactForm({ onFormSubmit, contacts }) {
       case 'number':
         return setNumber(value);
       default:
-        console.log('Invalid');
+        return name;
     }
   };
 
